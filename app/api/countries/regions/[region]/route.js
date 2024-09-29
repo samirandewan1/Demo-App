@@ -3,7 +3,6 @@ const Country_Api = "https://restcountries.com/v3.1/all";
 
 export async function GET(req, {params}) {
 
-  // Ensure 'params.code' exists and is used correctly
   const region = params.region.toLowerCase(); 
   
   try {

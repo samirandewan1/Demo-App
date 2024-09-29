@@ -10,7 +10,6 @@ function CountryFilter({ regions }) {
   const pathName = usePathname();
   const { replace } = useRouter();
   const handleSelections = (options) => {
-    console.log(options);
     setSelected(options);
     if (options) {
       const regionValues = options.map((option) => option.value);

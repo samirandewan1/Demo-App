@@ -1,0 +1,10 @@
+.mainheader{
+    display: flex;
+    height: 4rem;
+    background-color:  rgba(0, 103, 177);
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: .1rem;
+    margin-bottom: 3rem;
+}
